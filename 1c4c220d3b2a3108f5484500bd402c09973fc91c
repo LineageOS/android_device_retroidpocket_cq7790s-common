@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "138ecfb3_09b7bc0c",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-11-16T03:58:01Z",
+      "side": 1,
+      "message": "Needs to be migrated to kernel/ayn/cq8725s",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 20
+      },
+      "revId": "1c4c220d3b2a3108f5484500bd402c09973fc91c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "acbf8eca_f723442c",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-11-16T03:58:01Z",
+      "side": 1,
+      "message": "Needs to be migrated to kernel/ayn/cq8725s-modules",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 66,
+        "endChar": 29
+      },
+      "revId": "1c4c220d3b2a3108f5484500bd402c09973fc91c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5dd9cede_5eb4edc5",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-11-16T03:58:01Z",
+      "side": 1,
+      "message": "Needs to be migrated to ../common-modules",
+      "range": {
+        "startLine": 97,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 28
+      },
+      "revId": "1c4c220d3b2a3108f5484500bd402c09973fc91c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
