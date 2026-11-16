@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85da49b9_04ea9682",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-11-16T04:04:40Z",
+      "side": 1,
+      "message": "Will need updating at some point this week when we get newer EDL wtih ABL that has flashing cmds enabled.",
+      "range": {
+        "startLine": 2,
+        "startChar": 8,
+        "endLine": 2,
+        "endChar": 29
+      },
+      "revId": "d3280f7c520ce0be3f7a3b79e84c609afbf122e9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
