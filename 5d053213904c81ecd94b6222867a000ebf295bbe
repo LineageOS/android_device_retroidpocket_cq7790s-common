@@ -16,6 +16,24 @@
       "message": "CLO change https://review.lineageos.org/c/LineageOS/android_device_fairphone_FP6/+/511303",
       "revId": "5d053213904c81ecd94b6222867a000ebf295bbe",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0cc2b77a_b6fa6732",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-11-19T17:02:49Z",
+      "side": 1,
+      "message": "reverted, we didn\u0027t actually need this init change in the first place...",
+      "parentUuid": "162aaf6c_7ca54e94",
+      "revId": "5d053213904c81ecd94b6222867a000ebf295bbe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
