@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "162aaf6c_7ca54e94",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-11-19T16:26:43Z",
+      "side": 1,
+      "message": "CLO change https://review.lineageos.org/c/LineageOS/android_device_fairphone_FP6/+/511303",
+      "revId": "5d053213904c81ecd94b6222867a000ebf295bbe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
