@@ -87,13 +87,13 @@ TARGET_KERNEL_SOURCE := kernel/ayn/cq8725s
 TARGET_KERNEL_ADDITIONAL_FLAGS := QCOM_DISPLAY_DRIVERS_DIR=display-drivers-5.10
 TARGET_KERNEL_CONFIG := \
     gki_defconfig \
-    vendor/kera_le.config \
-    vendor/moorechip/kera_le.config
+    vendor/sun_perf.config \
+    vendor/moorechip/sun_perf.config
 
 # Kernel Modules
 MODULE_LISTS_PATH := $(COMMON_PATH)/modules
 BOARD_SYSTEM_KERNEL_MODULES_LOAD := $(strip $(shell cat $(MODULE_LISTS_PATH)/modules.load.system_dlkm))
-BOARD_VENDOR_KERNEL_MODULES_BLOCKLIST_FILE := $(TARGET_KERNEL_SOURCE)/modules.vendor_blocklist.msm.kera-le
+BOARD_VENDOR_KERNEL_MODULES_BLOCKLIST_FILE := $(TARGET_KERNEL_SOURCE)/modules.vendor_blocklist.msm.sun
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(MODULE_LISTS_PATH)/modules.load))
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_BLOCKLIST_FILE := $(BOARD_VENDOR_KERNEL_MODULES_BLOCKLIST_FILE)
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(MODULE_LISTS_PATH)/modules.load.first_stage))
