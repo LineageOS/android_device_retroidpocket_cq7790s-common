@@ -87,8 +87,8 @@ TARGET_KERNEL_SOURCE := kernel/ayn/cq8725s
 TARGET_KERNEL_ADDITIONAL_FLAGS := QCOM_DISPLAY_DRIVERS_DIR=display-drivers-5.10
 TARGET_KERNEL_CONFIG := \
     gki_defconfig \
-    vendor/kera_le.config \
-    vendor/moorechip/kera_le.config
+    vendor/sun_perf.config \
+    vendor/moorechip/sun_perf.config
 
 # Kernel Modules
 MODULE_LISTS_PATH := $(COMMON_PATH)/modules
