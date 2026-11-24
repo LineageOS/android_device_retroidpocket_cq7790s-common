@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4848e7e5_535578ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-11-24T18:34:58Z",
+      "side": 1,
+      "message": "works for me, ~10Mbps before, ~330Mbps after.",
+      "revId": "aa6ad4557c08c2e8e8f02063db350f3af0962252",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
