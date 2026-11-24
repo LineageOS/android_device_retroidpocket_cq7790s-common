@@ -55,6 +55,8 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace(r'(Name="vendor\.debug\.enable\.memperfd"\s+Value=")true"', r'\1false"'),
     'vendor/etc/sensors/hals.conf': blob_fixup()
         .regex_replace('sensors.qsh.so', 'sensors.ayn.so'),
+    'vendor/etc/wifi/wcn7750/WCNSS_qcom_cfg.ini': blob_fixup()
+        .regex_replace('g_sta_sap_scc_on_dfs_chan=0', 'g_sta_sap_scc_on_dfs_chan=1'),
     'vendor/lib64/soundfx/libbundleaidl.so': blob_fixup()
         .replace_needed('libaudio_aidl_conversion_common_ndk.so', 'libaudio_aidl_conversion_common_ndk_prebuilt.so'),
     'vendor/lib64/android.hardware.bluetooth.audio-impl_prebuilt.so': blob_fixup()
